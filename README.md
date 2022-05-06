@@ -9,9 +9,9 @@ Pytorch >= 1.4.0
 
 ## Prepare Data
 
-1. Download our [dataset](https://www.baidu.com).
+1. Download our [dataset and trained model](https://www.aliyundrive.com/s/Djac7bC7bmz).
 
-2. Unzip `data.zip` to the working directory.
+2. Copy the folder to the working directory.
     Open the folder `/data/`, the files are organized in the form of the following figure:
     
     ![image](https://github.com/leoli-jpg/GCN4GO/blob/main/content.PNG)
