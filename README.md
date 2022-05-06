@@ -2,11 +2,11 @@
 GCN for GO term name generation. Implemented by pytorch.
 ## Require
 
-Python 2.7 or 3.6
+Python 3.6
+Pytorch >= 1.4.0
 
-Tensorflow >= 1.4.0
 
-## Reproducing Results
+## Prepare Data
 
 1. Run `python remove_words.py 20ng`
 
