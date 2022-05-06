@@ -30,12 +30,12 @@ Pytorch >= 1.4.0
 
     To use the pattern, using `--abbreviation`.
 
-    Run `python gcndata_prepare.py --abbreviation --mix` to prepare data for model input.
+    Run `python gcndata_prepare.py --abbreviation True --mix True` to prepare data for model input.
 
-    Run `python generate_vocab.py --abbreviation --mix` to build vocabulary (If you want to test our best model, Skip this step to keep the vocabulary used by the model unchanged).
+    Run `python generate_vocab.py --abbreviation True --mix True` to build vocabulary (If you want to test our best model, Skip this step to keep the vocabulary used by the model unchanged).
 
 ## Train
-  Run `python gcn_attention.py --abbreviation --mix --attention` to train our full model.
+  Run `python gcn_attention.py --abbreviation True --mix True --attention True` to train our full model.
 
 ## Eval
-  Run `python gcn_attention_eval.py --abbreviation --mix --attention --model /model/excellent` to reproduce our best results. All results are generated in `temp_result.txt`.
+  Run `python gcn_attention_eval.py --abbreviation True --mix True --attention True --model /model/excellent` to reproduce our best results. All results are generated in `temp_result.txt`.
