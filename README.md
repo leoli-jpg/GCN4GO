@@ -9,7 +9,9 @@ Pytorch >= 1.4.0
 
 ## Prepare Data
 
-1. Unzip `data.zip` to the working directory.
+1. Download our [dataset](www.baidu.com).
+
+2. Unzip `data.zip` to the working directory.
     Open the folder `/data/`, the files are organized in the form of the following figure:
     
     ![image](https://github.com/leoli-jpg/GCN4GO/blob/main/content.PNG)
@@ -22,7 +24,7 @@ Pytorch >= 1.4.0
 
     `shuffle_Onto2Gene*.json` Organize data in {termID1 : \[geneID1_1, geneID1_2...\], termID2 : \[geneID2_1, geneID2_2...\]...}.
 
-2. Construct data to train model.
+3. Construct data to train model.
 
     To use the human dataset, using the default setting.
 
