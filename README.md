@@ -8,13 +8,11 @@ Pytorch >= 1.4.0
 
 ## Prepare Data
 
-1. Run `python remove_words.py 20ng`
+1. Unzip `data.zip` to the working directory.
+Open the folder named data, the files are organized in the form of the following figure:
 
-2. Run `python build_graph.py 20ng`
-
-3. Run `python train.py 20ng`
-
-4. Change `20ng` in above 3 command lines to `R8`, `R52`, `ohsumed` and `mr` when producing results for other datasets.
+The dataset we constructed is provided in the folder `/data/processed_data/`. There are three types of `.json` files in total:
+`all_geneDe*.json` Organize data in {geneID : \[Alias, Descipition\]} format.
 
 ## Example input data
 
