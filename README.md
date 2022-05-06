@@ -9,7 +9,7 @@ Pytorch >= 1.4.0
 
 ## Prepare Data
 
-1. Download our [dataset](www.baidu.com).
+1. Download our [dataset](https://www.baidu.com).
 
 2. Unzip `data.zip` to the working directory.
     Open the folder `/data/`, the files are organized in the form of the following figure:
