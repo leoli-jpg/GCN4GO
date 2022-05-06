@@ -40,4 +40,4 @@ Pytorch >= 1.4.0
 
 ## Eval
 
-    Run `python gcn_attention_eval.py --abbreviation --mix --attention --model /model/excellent` to reproduce our best results. All results are generated in `temp_result.txt`.
+    Run `python gcn_attention_eval.py --abbreviation --mix --attention --model /model/excellent` to reproduce our best results. All results are generated in temp_result.txt.
