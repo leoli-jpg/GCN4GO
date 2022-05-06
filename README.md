@@ -34,8 +34,8 @@ Pytorch >= 1.4.0
 
     Run `python generate_vocab.py --abbreviation --mix` to build vocabulary.
 
-## Prepare Data
-hh
+## Train
+    Run `python gcn_attention.py --abbreviation --mix --attention` to train our full model.
 ## Train
     Run `python gcn_attention.py --abbreviation --mix --attention` to train our full model.
 
