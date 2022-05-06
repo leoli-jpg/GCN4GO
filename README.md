@@ -32,7 +32,7 @@ Pytorch >= 1.4.0
 
     Run `python gcndata_prepare.py --abbreviation --mix` to prepare data for model input.
 
-    Run `python generate_vocab.py --abbreviation --mix` to build vocabulary.
+    Run `python generate_vocab.py --abbreviation --mix` to build vocabulary (If you want to test our best model, Skip this step to keep the vocabulary used by the model unchanged).
 
 ## Train
   Run `python gcn_attention.py --abbreviation --mix --attention` to train our full model.
