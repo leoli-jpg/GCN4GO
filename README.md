@@ -3,6 +3,7 @@ GCN for GO term name generation. Implemented by pytorch.
 ## Require
 
 Python 3.6
+
 Pytorch >= 1.4.0
 
 
@@ -38,4 +39,4 @@ Run `python gcn_attention.py --abbreviation --mix --attention` to train our full
 
 ## Eval
 
-Run `python gcn_attention_eval.py --abbreviation --mix --attention --/model/excellent` to reproduce our best results.
+Run `python gcn_attention_eval.py --abbreviation --mix --attention --model /model/excellent` to reproduce our best results.
