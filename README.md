@@ -9,10 +9,15 @@ Pytorch >= 1.4.0
 ## Prepare Data
 
 1. Unzip `data.zip` to the working directory.
-Open the folder named data, the files are organized in the form of the following figure:
+Open the folder `/data/`, the files are organized in the form of the following figure:
 
 The dataset we constructed is provided in the folder `/data/processed_data/`. There are three types of `.json` files in total:
-`all_geneDe*.json` Organize data in {geneID : \[Alias, Descipition\]} format.
+
+`all_geneDe*.json` Organize data in {geneID1 : \[Alias1, Descipition1\], geneID2 : \[Alias2, Descipition2\]...} format.
+
+`idName*.json` Organize data in {termID1 : termName1, termID2 : termName2...} format.
+
+`shuffle_Onto2Gene*.json` Organize data in {termID1 : \[geneID1_1, geneID1_2...\], termID2 : \[geneID2_1, geneID2_2...\]...} format.
 
 ## Example input data
 
