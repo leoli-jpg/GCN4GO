@@ -12,7 +12,7 @@ Pytorch >= 1.4.0
 1. Unzip `data.zip` to the working directory.
     Open the folder `/data/`, the files are organized in the form of the following figure:
     
-    ![image](https://github.com/xxx/xxx/blob/master/xxx/xxx.png)
+    ![image](https://github.com/leoli-jpg/GCN4GO/main/content.png)
 
     The dataset we constructed is provided in the folder `/data/processed_data/`. There are three types of `.json` files in total:
 
