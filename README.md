@@ -21,6 +21,7 @@ Pytorch >= 1.4.0
     `shuffle_Onto2Gene*.json` Organize data in {termID1 : \[geneID1_1, geneID1_2...\], termID2 : \[geneID2_1, geneID2_2...\]...}.
 
 2. Construct data to train model.
+
     To use the human dataset, using the default setting.
 
     To use the yeast dataset, using `--yeast`.
